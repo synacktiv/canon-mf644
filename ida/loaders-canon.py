@@ -168,6 +168,7 @@ class NCFW(Container):
             else:
                 while stream.tell() < len(self.content):
                     nca = NCA(stream)
+                    nca.handle()
                     self._ncas.append(nca)
 
         except ValueError:
