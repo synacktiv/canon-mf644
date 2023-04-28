@@ -11,13 +11,13 @@ This repository contains the following files related to the exploit:
 
 > Note: The exploit is working only against firmware in version 10.02.
 
-## Exploit for Pwn2Own 2022 - Vulnerability in NetBIOS service (firmware 12.03)
+## Exploit for Pwn2Own 2022 - Vulnerability in NetBIOS service (firmware 11.04)
 
-  * [exploit.py](exploit_netbios/exploit.py) : Python exploit working against firmware in version 12.03
+  * [exploit.py](exploit_netbios/exploit.py) : Python exploit working against firmware in version 11.04
   * [Makefile](exploit_netbios/Makefile) : Makefile used to assemble the ARM shellcode
   * [shellcode_ninja.S](exploit_netbios/shellcode_ninja.S) : ARM shellcode used to receive and a display a picture from a TCP socket
 
-> Note: The exploit is working only against firmware in version 12.03
+> Note: The exploit is working only against firmware in version 11.04
 
 ## MISC
 
