@@ -4,19 +4,18 @@
 
 This repository contains the following files related to the exploit:
 
-  * [exploit_cadm/exploit.py](exploit.py) : Python exploit working against firmware in version 10.02
-  * [exploit_cadm/Makefile](Makefile) : Makefile used to assemble the ARM shellcode 
-  * [exploit_cadm/shellcode_ninja.S](shellcode_ninja.S) : ARM shellcode used to receive and a display a picture from a TCP socket 
-  * [exploit_cadm/memdump](memdump) : Dump from the firmware needed to build the exploit payload
+  * [exploit.py](exploit_cadm/exploit.py) : Python exploit working against firmware in version 10.02
+  * [Makefile](exploit_cadm/Makefile) : Makefile used to assemble the ARM shellcode
+  * [shellcode_ninja.S](exploit_cadm/shellcode_ninja.S) : ARM shellcode used to receive and a display a picture from a TCP socket
+  * [memdump](exploit_cadm/memdump) : Dump from the firmware needed to build the exploit payload
 
 > Note: The exploit is working only against firmware in version 10.02.
 
 ## Exploit for Pwn2Own 2022 - Vulnerability in NetBIOS service (firmware 12.03)
 
-  * [exploit_netbios/exploit.py](exploit.py) : Python exploit working against firmware in version 12.03
-  * [exploit_netbios/Makefile](Makefile) : Makefile used to assemble the ARM shellcode 
-  * [exploit_netbios/shellcode_ninja.S](shellcode_ninja.S) : ARM shellcode used to receive and a display a picture from a TCP socket 
-  * [exploit_netbios/image_delivery.py](image_delivery.py) : Python script implementing the TCP server that will send a picture on a socket
+  * [exploit.py](exploit_netbios/exploit.py) : Python exploit working against firmware in version 12.03
+  * [Makefile](exploit_netbios/Makefile) : Makefile used to assemble the ARM shellcode
+  * [shellcode_ninja.S](exploit_netbios/shellcode_ninja.S) : ARM shellcode used to receive and a display a picture from a TCP socket
 
 > Note: The exploit is working only against firmware in version 12.03
 
